@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+#box {
+    background: #333;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'montserrat',sans-serif;
+    
+    
+}
+#box h1 {  
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+#button {
+    background: none;
+    border: 2px solid white;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;   
+    font-family: 'montserrat',sans-serif;
+}
+
+#box ul li {
+    font-size: 16px;
+    margin: 15px;
+}
+#button:hover {
+    background: white;
+    color: #333;
+}
+#button:active {
+    position: relative;
+    top: 2px;
+}
